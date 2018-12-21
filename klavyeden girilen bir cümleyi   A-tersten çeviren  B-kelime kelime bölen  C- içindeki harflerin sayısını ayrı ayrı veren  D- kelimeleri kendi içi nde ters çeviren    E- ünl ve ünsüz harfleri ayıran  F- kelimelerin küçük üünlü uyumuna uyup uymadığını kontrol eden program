@@ -1,0 +1,11 @@
+yaz = str(input("bir cümle yazınız: "))
+print("tersten: " + yaz[: : -1])
+yazılan = yaz.split()
+print(yazılan)
+for i in range(len(yazılan)):
+    print(len(yazılan[i]))
+
+for i in range((yazılan)):
+    kelime = yazılan[i]
+    kelimee = kelime[: : -1]
+    print(kelime)
